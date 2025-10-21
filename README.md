@@ -18,3 +18,26 @@ Pros:
  -Battery still works!
 
 
+Docker-Compose.yml:
+```
+services:
+  dash2mqtt:
+    image: kllngtme/dash2mqtt:latest
+    container_name: dash2mqtt
+    restart: unless-stopped
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    environment:
+      - MQTT_BROKER=192.168.1.120
+      - MQTT_PORT=1883
+      - MQTT_TOPIC=dash
+      - BUTTON_1_NAME=greenworks
+      - BUTTON_1_MAC=xx:xx:xx:xx:xx
+      - BUTTON_2_NAME=snuggle
+      - BUTTON_2_MAC=xx:xx:xx:xx:xx
+    depends_on:
+      - mqtt
+      - homeassistant
+```
