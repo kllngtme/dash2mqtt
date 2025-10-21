@@ -9,16 +9,19 @@ Amazon Dash button press >> ARP Announcement >> Publish to MQTT >> Home Assistan
 First things first, make a firewall rule for the Amazon Dash button(s) to not be able to reach the internet. 
 5 years later, and I believe they are still being bricked.
 
-Cons of using this button:
--No long presses or double presses available.
--It takes about 35seconds or so before that button can be pressed again.
+<h2>Pros and Cons</h2>
 
-Pros:
- -Cheap!
- -Battery still works!
+<b>Pros:</b><br>
+ - Cheap!<br>
+ - Battery still works!<br>
+
+ <b>Cons:</b><br>
+ - No long presses or double presses available.<br>
+ - It takes about 35seconds or so before that button can be pressed again.<br>
 
 
-Docker-Compose.yml:
+<h2>Docker-Compose.yml:</h2>
+
 ```
 services:
   dash2mqtt:
