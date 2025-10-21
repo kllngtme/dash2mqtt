@@ -11,7 +11,7 @@ I will be making this into a direct Home Assistant integration, but this is the 
 First things first, make a firewall rule for the Amazon Dash button(s) to not be able to reach the internet. 
 5 years later, and I believe they are still being bricked.
 
-<h2>Pros and Cons</h2>
+<h2>Pros and Cons to using an Amazon Dash button in 2025</h2>
 
 <b>Pros:</b><br>
  - Cheap!<br>
