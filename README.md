@@ -30,9 +30,11 @@ services:
       - NET_ADMIN
       - NET_RAW
     environment:
-      - MQTT_BROKER=192.168.1.120
+      - MQTT_BROKER=192.168.1.120   # the broker IP
       - MQTT_PORT=1883
-      - MQTT_TOPIC=dash
+      - MQTT_USER=myuser            # optional, left blank if no login/password
+      - MQTT_PASS=mypass            # optional
+      - MQTT_TOPIC=dash             # the root MQTT topic for button presses
       - BUTTON_1_NAME=greenworks
       - BUTTON_1_MAC=xx:xx:xx:xx:xx
       - BUTTON_2_NAME=snuggle
