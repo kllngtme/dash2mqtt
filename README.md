@@ -5,6 +5,8 @@ The Idea:
 ```
 Amazon Dash button press >> ARP Announcement >> Publish to MQTT >> Home Assistant triggers a command.
 ```
+I will be making this into a direct Home Assistant integration, but this is the working idea of it.
+
 
 First things first, make a firewall rule for the Amazon Dash button(s) to not be able to reach the internet. 
 5 years later, and I believe they are still being bricked.
