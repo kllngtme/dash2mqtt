@@ -48,3 +48,8 @@ services:
       - mqtt
       - homeassistant
 ```
+
+# Requirements
+- Home Assistant
+- mqtt broker
+- Amazon dash button
