@@ -16,15 +16,12 @@ I will be making this into a direct Home Assistant integration soon, but this is
 First things first, Make a firewall rule so the Amazon Dash button(s) can't reach the internet.
 5 years later, and I believe they are still being bricked.
 
-<h2>Pros and Cons to using an Amazon Dash button in 2025</h2>
+<h3>Pros and Cons to using an Amazon Dash button in 2025</h3>
 
-<b>Pros:</b><br>
- - Cheap!<br>
- - Battery still works!<br>
-
- <b>Cons:</b><br>
- - No long presses or double presses available.<br>
- - It takes about 35seconds or so before that button can be pressed again.<br>
+| Pros | Cons | 
+|------|-------|
+| Cheap!|No Long presses or double presses available|
+| Battery still works!|It takes about 35 seconds or so before the button can be pressed again| 
 
 
 <h2>Docker-Compose.yml:</h2>
