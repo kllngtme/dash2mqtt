@@ -6,15 +6,10 @@ This all started with an idea for a button to turn on the garbage disposal for 5
 After finding they don't make many z-wave buttons really(there are some), it had me looking into alternatives without spending too much money.
 I found a facebook marketplace post from 9 weeks ago. 24 Amazon Dash buttons for $10. The guy still had them, so here we are.
 
-The Idea:
 ```
 Amazon Dash button press >> ARP Announcement >> Publish to MQTT >> Home Assistant triggers a command.
 ```
-I will be making this into a direct Home Assistant integration soon, but this is the working idea of it.
-
-
-First things first, Make a firewall rule so the Amazon Dash button(s) can't reach the internet.
-5 years later, and I believe they are still being bricked.
+I will be making this into a direct Home Assistant integration soon, but this is the working idea of it using Docker for now.
 
 <h3>Pros and Cons to using an Amazon Dash button in 2025</h3>
 
@@ -23,6 +18,9 @@ First things first, Make a firewall rule so the Amazon Dash button(s) can't reac
 | Cheap!|No Long presses or double presses available|
 | Battery still works!|It takes about 35 seconds or so before the button can be pressed again| 
 
+# Important
+Make a firewall rule so the Amazon Dash button(s) can't reach the internet.
+5 years later, and I believe they are still being bricked by Bezos (I have 23 working now at least).
 
 <h2>Docker-Compose.yml:</h2>
 
