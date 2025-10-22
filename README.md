@@ -1,6 +1,11 @@
 # dash2mqtt
 Detect Amazon Dash button presses and publish to MQTT for Home Assistant automation
 
+
+This all started with an idea for a button to turn on the garbage disposal for 5 or 10 seconds.
+After finding they don't make many z-wave buttons really(there are some), it had me looking into alternatives without spending too much money.
+I found a facebook marketplace post from 9 weeks ago. 24 Amazon Dash buttons for $10. The guy still had them, so here we are.
+
 The Idea:
 ```
 Amazon Dash button press >> ARP Announcement >> Publish to MQTT >> Home Assistant triggers a command.
